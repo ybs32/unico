@@ -1,0 +1,10 @@
+[Unit]
+Description=ASGI server
+
+[Service]
+ExecStart=/var/lib/ybs32/bin/unico.sh
+SyslogIdentifier=unico
+Restart = on-failure
+
+[Install]
+WantedBy=multi-user.target
