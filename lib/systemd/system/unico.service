@@ -3,7 +3,7 @@ Description=ASGI server
 OnFailure=monitor@%n.service
 
 [Service]
-ExecStart=/var/lib/ybs32/bin/unico.sh
+ExecStart=/opt/ybs32/bin/unico.sh
 SyslogIdentifier=unico
 Restart = on-failure
 

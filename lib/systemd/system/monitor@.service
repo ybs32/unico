@@ -2,5 +2,5 @@
 Description=Monitor for %i
 
 [Service]
-ExecStart = /var/lib/ybs32/bin/monitor.sh %i
+ExecStart = /opt/ybs32/bin/monitor.sh %i
 SyslogIdentifier=monitor
