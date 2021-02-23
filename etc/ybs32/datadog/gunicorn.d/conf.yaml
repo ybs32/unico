@@ -1,0 +1,23 @@
+init_config:
+
+instances:
+    ## @param proc_name - 文字列 - 必須
+    ## gunicorn プロセスの名前。次の gunicorn サーバーの場合:
+    ##
+    ## gunicorn --name <WEB_APP_NAME> <WEB_APP_CONFIG>.ini
+    ##
+    ## 名前は `<WEB_APP_NAME>` です
+  - proc_name: unico
+
+logs:
+  - type: file
+    path: /var/log/gunicorn/access.log
+    source: gunicorn
+
+  - type: file
+    path: /var/log/gunicorn/error.log
+    source: gunicorn
+    log_processing_rules:
+      - type: multi_line
+        name: log_start_with_date
+        pattern: \[\d{4}-\d{2}-\d{2}
