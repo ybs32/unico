@@ -1,0 +1,10 @@
+init_config:
+  # Change default path of trusted certificates
+  # ca_certs: /etc/ssl/certs/ca-certificates.crt
+
+instances:
+  - name: Unico health check
+    url: http://127.0.0.1:8000/check
+    timeout: 30
+    http_response_status_code: 200
+    min_collection_interval: 300
