@@ -1,0 +1,17 @@
+init_config:
+
+instances:
+  - use_mount: false
+    file_system_exclude:
+      - tmpfs
+      - none
+      - shm
+      - nsfs
+      - netns
+      - binfmt_misc
+      - autofs
+    mount_point_exclude:
+      - /var/lib/docker/(containers|overlay2)/
+      - /run/docker/
+      - /sys/kernel/debug/
+      - /run/user/1000/
