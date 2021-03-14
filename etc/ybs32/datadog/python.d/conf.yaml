@@ -1,0 +1,10 @@
+init_config:
+
+instances:
+
+logs:
+  - type: file
+    path: "/var/log/unico/general.log"
+    service: "unico"
+    source: python
+    sourcecategory: sourcecode
