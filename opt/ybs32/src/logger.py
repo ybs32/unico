@@ -30,7 +30,7 @@ class JsonFormatter(jsonlogger.JsonFormatter):
 
 def getLogger():
     handler = logging.handlers.TimedRotatingFileHandler(
-        filename = "/var/log/general.log",
+        filename = "/var/log/unico/general.log",
         when = "midnight",
         interval = 1,
         backupCount = 90,

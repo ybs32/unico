@@ -1,0 +1,11 @@
+{"timestamp": "2021-03-22T22:47:07+0900", "level": "DEBUG", "message": "Using selector: SelectSelector"}
+{"timestamp": "2021-03-22T22:47:07+0900", "level": "INFO", "message": "Started server process [4100]", "color_message": "Started server process [\u001b[36m%d\u001b[0m]"}
+{"timestamp": "2021-03-22T22:47:07+0900", "level": "INFO", "message": "Waiting for application startup."}
+{"timestamp": "2021-03-22T22:47:07+0900", "level": "INFO", "message": "Application startup complete."}
+{"timestamp": "2021-03-22T22:47:08+0900", "level": "INFO", "message": "Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)", "color_message": "Uvicorn running on \u001b[1m%s://%s:%d\u001b[0m (Press CTRL+C to quit)"}
+{"timestamp": "2021-03-22T22:47:24+0900", "level": "INFO", "message": "Hello"}
+{"timestamp": "2021-03-22T22:47:39+0900", "level": "ERROR", "message": "Check"}
+{"timestamp": "2021-03-22T22:47:48+0900", "level": "INFO", "message": "Shutting down"}
+{"timestamp": "2021-03-22T22:47:48+0900", "level": "INFO", "message": "Waiting for application shutdown."}
+{"timestamp": "2021-03-22T22:47:48+0900", "level": "INFO", "message": "Application shutdown complete."}
+{"timestamp": "2021-03-22T22:47:48+0900", "level": "INFO", "message": "Finished server process [4100]", "color_message": "Finished server process [\u001b[36m%d\u001b[0m]"}
