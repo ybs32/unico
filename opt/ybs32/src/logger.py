@@ -6,6 +6,7 @@ import logging
 from pytz import timezone
 from pythonjsonlogger import jsonlogger
 
+
 class JsonFormatter(jsonlogger.JsonFormatter):
 
     def parse(self):
@@ -27,6 +28,7 @@ class JsonFormatter(jsonlogger.JsonFormatter):
             record['level'] = record['level'].upper()
         else:
             record['level'] = rec.levelname
+
 
 def getLogger():
     handler = logging.handlers.TimedRotatingFileHandler(
