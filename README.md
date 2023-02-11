@@ -1,5 +1,4 @@
 # unico
-Experimental
 
 * FastAPI
 * Gunicorn
